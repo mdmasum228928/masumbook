@@ -1,0 +1,261 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+img{
+    width: 100%;
+}
+/* ================ main id call ================= */
+#messenger{
+    overflow: hidden;
+}
+#messenger_left{
+    width: 27%;
+    padding-left: 1%;
+    float: left;
+    border-right: 1px solid  #E5E5E5;
+}
+#messenger_middle{
+    width: 45%;
+    float: left;
+    border-right: 1px solid #E5E5E5;
+    height: 665px;
+}
+#messenger_right{
+    float: right;
+    padding-right: 1%;
+    width: 26%;
+}
+/* ================ messenger left area starts ================= */
+.user_top{
+    overflow: hidden;
+    padding: 15px 0;
+}
+.user_left{
+    display: flex;
+    float: left;
+}
+.user_left img{
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+}
+.user_left h2{
+    padding-left: 10px;
+    font-weight: bold;
+    padding-top: 5px;
+    font-size: 25px;
+}
+.user_right{
+    float: right;
+    padding: 10px 0px;
+}
+.user_right i{
+    color: black;
+    padding: 5px 5px;
+    padding-top: 7px;
+    font-size: 20px;
+    background: #E9E9E9;
+    border-radius: 18px;
+    margin-left: 10px;
+}
+.user_right i:nth-child(3){
+    margin-right: 20px;
+}
+/* ==== 1st section end ======== */
+
+.search{
+    padding-bottom: 20px;
+}
+.search input{
+    width: 95%;
+    padding: 7px 15px;
+    border-radius: 15px;
+    background: #F3F3F5;
+    outline: none;
+    border: none;
+}
+/* =========== friend list area starts ========*/
+#friend_area{
+    max-height: 540px;
+    overflow-y: auto;
+}
+#friend_area::-webkit-scrollbar{
+    
+}
+.friend_list_area{
+    display: flex;
+    overflow: hidden;
+    padding: 10px 0;
+    transition: .3s;
+}
+.friend_list_area img{
+    width: 55px;
+    height: 55px;
+    border-radius: 100%;
+}
+.name_and_chat{
+    padding: 10px 20px;
+    width: 130px;
+}
+.name_and_chat h5{
+    margin-bottom: 5px;
+    color: #050505;
+}
+.name_and_chat p{
+    float: left;
+    color: #6B6D71;
+    padding-right: 5px;
+}
+.name_and_chat span{
+    color: #6B6D71;
+}
+.friend_list_etcicon{
+    margin-left: 80px;
+    padding-top: 15px;
+}
+.friend_list_etcicon i{
+    padding: 6px;
+    border: 1px solid #D0D0D0;
+    border-radius: 100%;
+    background: #fff;
+    color: #646971;
+    font-size: 23px;
+    padding-bottom: 1px;
+    opacity: 0;
+    transition: .1s;
+}
+.friend_list_area:hover{
+    background-color: #F2F2F2;
+}
+.friend_list_etcicon i:hover{
+    background-color: #F2F2F2;
+}
+.friend_list_area:hover .friend_list_etcicon i{
+    opacity: 1;
+}
+
+
+
+
+
+/* <!-- ========== messenger middle =============================--> */
+.profile_area{
+    padding: 15px 0px;
+    overflow: hidden;
+    border-bottom: 1px solid #E5E5E5;
+    border-right: 1px solid #E5E5E5;
+}
+.profile_left{float: left;width: 50%;}
+.profile_left img{
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    float: left;
+    padding: 0px 15px;
+}
+.profile_name{}
+.profile_name h3{}
+.profile_name p{}
+.profile_right{
+    float: right;
+    padding-top: 10px;
+}
+.profile_right i{
+    color: #8CB3FF;
+    padding: 0px 10px;
+    font-size: 22px;
+}
+/* ===== profile area ends ===== */
+.profile_chat_area{
+    max-height: 500px;
+    overflow-y: auto;
+    padding: 20px 0;
+    height: 500px;
+}
+.left_friend_list_message{
+    overflow: hidden;
+    width: 90%;
+    margin: 5px 0px;
+}
+.profile_chat_write{
+    display: flex;
+    float: left;
+}
+.profile_chat_write img{
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    margin-top: 2px;
+    margin-left: 10px;
+}
+.profile_chat_write p{
+    font-size: 18px;
+    padding: 8px;
+    margin: 0px 5px;
+    background: #E4E6EB;
+    border-radius: 15px;
+}
+.profile_emoji{
+    float: left;
+    padding-left: 10px;
+    opacity: 0;
+}
+.left_friend_list_message:hover .profile_emoji{
+    opacity: 1;
+}
+.profile_emoji i{
+    color: #8A8D91;
+    padding: 13px 1px;
+    font-size: 15px;
+}
+/* =============== left_friend_list_message ends ================= */
+
+.right_my_send_message{
+    overflow:hidden;
+}
+.profile_my_message{
+    margin-right: 15px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    float: right;
+}
+.profile_my_message p{
+    padding: 8px;
+    background: #59A6FF;
+    border-radius: 15px;
+    color: #fff;
+    font-size: 18px;
+}
+.profile_emoji_right{
+    float: right;
+    padding-right: 10px;
+    opacity: 0;
+}
+.right_my_send_message:hover .profile_emoji_right{
+    opacity: 1;
+}
+.profile_emoji_right i{
+    color: #8A8D91;
+    padding: 13px 1px;
+    font-size: 15px;
+}
+/* =============== right_friend_list_message ends ================= */
+/* ============================================chat area ends ends ============================*/
+.profile_send_area{
+    margin-top: 15px;
+}
+
+.profile_send_middle{
+    margin-left:30px;
+}
+.profile_send_middle input{
+    width: 384px;
+    padding: 8px;
+    border-radius: 20px;
+    outline: none;
+    background: #F3F3F5;
+    border: none;
+}
+
+

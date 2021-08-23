@@ -1,0 +1,74 @@
+@font-face {
+    font-family: "flaticon";
+    src: url("./flaticon.ttf?b1392067100a0fcbd246d02f18d6fa1b") format("truetype"),
+url("./flaticon.woff?b1392067100a0fcbd246d02f18d6fa1b") format("woff"),
+url("./flaticon.woff2?b1392067100a0fcbd246d02f18d6fa1b") format("woff2"),
+url("./flaticon.eot?b1392067100a0fcbd246d02f18d6fa1b#iefix") format("embedded-opentype"),
+url("./flaticon.svg?b1392067100a0fcbd246d02f18d6fa1b#flaticon") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.flaticon-edit:before {
+    content: "\f101";
+}
+.flaticon-video:before {
+    content: "\f102";
+}
+.flaticon-more:before {
+    content: "\f103";
+}
+.flaticon-phone-call:before {
+    content: "\f104";
+}
+.flaticon-video-camera:before {
+    content: "\f105";
+}
+.flaticon-information-button:before {
+    content: "\f106";
+}
+.flaticon-loupe:before {
+    content: "\f107";
+}
+.flaticon-gif-1:before {
+    content: "\f108";
+}
+.flaticon-gif-2:before {
+    content: "\f109";
+}
+.flaticon-gif-3:before {
+    content: "\f10a";
+}
+.flaticon-emoji:before {
+    content: "\f10b";
+}
+.flaticon-smile:before {
+    content: "\f10c";
+}
+.flaticon-like:before {
+    content: "\f10d";
+}
+.flaticon-thumb-up:before {
+    content: "\f10e";
+}
+.flaticon-happy:before {
+    content: "\f10f";
+}
+.flaticon-more-1:before {
+    content: "\f110";
+}
+.flaticon-show-more-button-with-three-dots:before {
+    content: "\f111";
+}
+.flaticon-download:before {
+    content: "\f112";
+}
